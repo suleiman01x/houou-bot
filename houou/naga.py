@@ -20,7 +20,7 @@ class Naga:
 		pred_str4 = pred_pattern2.sub(r'', pred_str3)
 
 		pred_str4 = pred_str4.replace('"', '')
-		return "hello"
+		return pred_str4
 
 if __name__ == "__main__":
 	testurl = 'https://naga.dmv.nico/htmls/2a42a9763cc316d8b39a9a3f37d6afaaa233b3ac050bb44099cc68913d31284fv2_0_0.html?tw=3'
